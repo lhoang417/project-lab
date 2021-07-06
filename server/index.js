@@ -16,14 +16,14 @@ app.put('/api/locations/:placeId', updatePlace)
 
 
 app.get('/', function(req,res){
-    res.sendFile(path.join(__dirname, '../index.html'))
+    res.sendFile(path.join(__dirname, 'public/index.html'))
    
 })
 app.get('/styles', function(req, res) {
-    res.sendFile( path.join(__dirname, '../styles.css') );
+    res.sendFile( path.join(__dirname, 'public/styles.css') );
 })
 app.get('/js', function(req, res) {
-    res.sendFile( path.join(__dirname, '../main.js') )
+    res.sendFile( path.join(__dirname, 'public/main.js') )
 })
 
 const port = process.env.PORT || 5050
