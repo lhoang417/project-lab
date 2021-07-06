@@ -2,19 +2,16 @@
     {
       "id": 1,
       "address": "Washington DC",
-      "rating": 5,
       "imageURL" : "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/01/28/64.jpg"
     },
     {
       "id": 2,
       "address": "London",
-      "rating": 4,
       "imageURL" : "https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyNDg1MjE3MTI1Mjc5Mzk4/topic-london-gettyimages-760251843-promo.jpg"
     },
     {
       "id": 3,
       "address": "India",
-      "rating": 5,
       "imageURL" : "https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-taj-mahal.jpg"
     }
   ]

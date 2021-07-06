@@ -2,7 +2,7 @@ const placesContainer = document.querySelector('#Want-to-visit')
 const visitedContainer = document.querySelector('#visited')
 const form = document.querySelector('form')
 
-const baseURL = `http://localhost:5050/api/locations`
+const baseURL = `https://destination-lab.herokuapp.com/api/locations`
 
 const placesCallback = ({ data: places }) => displayPlaces(places)
 const errCallback = err => console.log(err)
