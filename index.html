@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Project-Lab</title>
+
+</head>
+<body>
+    <div id="top">
+        <header><h1>Trip List</h1></header>
+    </div>  
+    <main>
+    <center>
+        <form>
+            <input 
+                type='text'
+                id="address"
+                placeholder="What's the location address?"/>
+            <input 
+                type='text'
+                id="img"
+                placeholder='Image URL of location'/>
+                
+            <button id= "place">Add place</button>
+        </form>
+
+    </center>
+    <div id="first">
+        <center><h1 id = 'visitTag'>Destinations</h1></center>
+        <section id="Want-to-visit"></section>
+    </div>
+
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
