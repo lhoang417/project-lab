@@ -38,10 +38,10 @@ function createPlaceCard(place) {
     placeCard.innerHTML = `<img alt='place cover image' src=${place.imageURL} class="place-cover-image"/>
     <p class="address">${place.address}</p>
     <button id= 'delete' onclick="deletePlace(${place.id})">delete</button>
-    <label class="container">Visited
-    <input type="checkbox">
-    <span class="checkmark"></span>
-    </label>
+    // <label class="container">Visited
+    // <input type="checkbox">
+    // <span class="checkmark"></span>
+    // </label>
     `
 
     placesContainer.appendChild(placeCard)
