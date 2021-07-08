@@ -1,4 +1,4 @@
-# project-lab
+# project-lab [Trip List](https://destination-lab.herokuapp.com/)
 
 This is a website that allows you to add a name and image of a destination to a list.
 
