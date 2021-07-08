@@ -20,13 +20,13 @@ I wanted to create a way to store information of destinations a person would lik
 
 * I chose a cool palette to put you in vacation mode as soon as you see the colors. Cool colors tend to make you more relaxed and I felt this was a good way to get you in the mood while looking at the destinations. 
 
-###Technologies
+### Technologies
 
 * HTML/CSS - I created this project on an HTML site and used CSS to stylize the shapes and colors of the elements.
 * JavaScript - I utilized js for functionality of the features listed above. 
 * Axios - I used Axios request to create, and delete items from the list.
 
-###Screenshots
+### Screenshots
 * ![Alt text](https://github.com/lhoang417/pictures/blob/main/Screenshot%202021-07-08%20142204.png?raw=true "Optional title")
 * ![Alt text](https://github.com/lhoang417/pictures/blob/main/Screenshot%202021-07-08%20142253.png?raw=true "Optional title")
 
